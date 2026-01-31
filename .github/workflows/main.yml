@@ -15,10 +15,10 @@ jobs:
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
-      - name: Checkout code
+      - name: Checkout code Test 2
         uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
       - name: Test 2
-        run: echo "Hello, Test 2"
+        run: echo "Hello, Test 2!!!"
 
