@@ -1,4 +1,4 @@
-name: CI Example
+name: Test 2
 
 # Controls when the action will run
 on:
@@ -19,6 +19,6 @@ jobs:
         uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo "Hello, world!"
+      - name: Test 2
+        run: echo "Hello, Test 2"
 
