@@ -2,8 +2,8 @@ name: Test 1
 
 # Controls when the action will run
 on:
-  push:
-    branches: [ "main" ]
+  #push:
+    #branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
